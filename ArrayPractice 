@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+
+	
+	public void Main()
+	{
+		string [] teams = {"RedBull", "Merc", "Aston"};
+		Console.WriteLine(teams.Length);
+		foreach (var names in teams) {
+			Console.WriteLine(names);
+		}
+	}
+}
+	
