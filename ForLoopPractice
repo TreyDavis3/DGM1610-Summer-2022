@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+
+	
+	public void Main()
+	{
+		string [] teams = {"RedBull", "Merc", "Aston"};
+		Console.WriteLine(teams.Length);
+		
+		for (var i = 0; i < teams.Length; i++){
+		teams [1] = "McLearn";	
+		}
+		
+		foreach (var names in teams) {
+			Console.WriteLine(names);
+		}
+	}
+}
