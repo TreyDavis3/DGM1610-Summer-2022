@@ -10,7 +10,11 @@ public class Program
 		Console.WriteLine(teams.Length);
 		
 		for (var i = 0; i < teams.Length; i++){
-		teams [1] = "McLearn";	
+		teams [1] = "McLearn" + " likes Lando";	
+		}
+		
+		for (var i = 0; i < teams.Length; i++){
+		teams [2] = "Aston is pain";	
 		}
 		
 		foreach (var names in teams) {
